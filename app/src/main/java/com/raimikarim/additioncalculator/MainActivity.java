@@ -14,6 +14,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener,
         View.OnLongClickListener {
 
+    // test
     private int adder = 0;
     private TextView sumBox, historyBox;
     private StringBuilder sb = new StringBuilder();
