@@ -1,0 +1,87 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:2:1-21:12
+	package
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:3:5-48
+		INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:5:5-19:19
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/binKarim/.android/build-cache/9c1ef7ec708c1fdd7b7498144b63c79a9e62ef19/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/binKarim/.android/build-cache/52bf7508b4970c2774e25abf2f1c873573f976c6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/binKarim/.android/build-cache/75c9b93636a13ab1dbb5456acef182ef2b6a5fe4/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/binKarim/.android/build-cache/b7d528fcab59d60a5e64b5159161466bf4da9cca/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/binKarim/.android/build-cache/c86ae234a6f1822b52865b99a087f17c4807644a/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/binKarim/.android/build-cache/10c6a25ad3dab126434d68eb8ad5a8c4a0d10d57/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/binKarim/.android/build-cache/376ea803d1145c1650fcf0b2345d5965ba6ba260/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/binKarim/.android/build-cache/a9a9338fbd353703cf5f1929a9aece8219d6c166/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/binKarim/.android/build-cache/8abc78c8979c3ce04d2bdee003c13722b217815c/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/binKarim/.android/build-cache/64ae66bd1205c0e8edca4feb2794d28d88ae6c05/output/AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:9:9-48
+	android:allowBackup
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:11:9-40
+activity#com.raimikarim.additioncalculator.MainActivity
+ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml:16:27-74
+uses-sdk
+INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/binKarim/.android/build-cache/9c1ef7ec708c1fdd7b7498144b63c79a9e62ef19/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/binKarim/.android/build-cache/52bf7508b4970c2774e25abf2f1c873573f976c6/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/binKarim/.android/build-cache/75c9b93636a13ab1dbb5456acef182ef2b6a5fe4/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/binKarim/.android/build-cache/b7d528fcab59d60a5e64b5159161466bf4da9cca/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/binKarim/.android/build-cache/c86ae234a6f1822b52865b99a087f17c4807644a/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/binKarim/.android/build-cache/10c6a25ad3dab126434d68eb8ad5a8c4a0d10d57/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/binKarim/.android/build-cache/376ea803d1145c1650fcf0b2345d5965ba6ba260/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/binKarim/.android/build-cache/a9a9338fbd353703cf5f1929a9aece8219d6c166/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/binKarim/.android/build-cache/8abc78c8979c3ce04d2bdee003c13722b217815c/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/binKarim/.android/build-cache/64ae66bd1205c0e8edca4feb2794d28d88ae6c05/output/AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/binKarim/.android/build-cache/9c1ef7ec708c1fdd7b7498144b63c79a9e62ef19/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/binKarim/GitHub/AdditionCalculator/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/binKarim/.android/build-cache/9c1ef7ec708c1fdd7b7498144b63c79a9e62ef19/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/binKarim/.android/build-cache/52bf7508b4970c2774e25abf2f1c873573f976c6/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/binKarim/.android/build-cache/75c9b93636a13ab1dbb5456acef182ef2b6a5fe4/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /Users/binKarim/.android/build-cache/b7d528fcab59d60a5e64b5159161466bf4da9cca/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /Users/binKarim/.android/build-cache/c86ae234a6f1822b52865b99a087f17c4807644a/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /Users/binKarim/.android/build-cache/10c6a25ad3dab126434d68eb8ad5a8c4a0d10d57/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /Users/binKarim/.android/build-cache/376ea803d1145c1650fcf0b2345d5965ba6ba260/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /Users/binKarim/.android/build-cache/a9a9338fbd353703cf5f1929a9aece8219d6c166/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-compat:26.0.0-alpha1] /Users/binKarim/.android/build-cache/8abc78c8979c3ce04d2bdee003c13722b217815c/output/AndroidManifest.xml:25:5-27:41
+	android:value
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/binKarim/.android/build-cache/9c1ef7ec708c1fdd7b7498144b63c79a9e62ef19/output/AndroidManifest.xml:27:9-38
+	android:name
+		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/binKarim/.android/build-cache/9c1ef7ec708c1fdd7b7498144b63c79a9e62ef19/output/AndroidManifest.xml:26:9-47

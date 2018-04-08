@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/binKarim/GitHub/AdditionCalculator/app/build/intermediates/res/merged/release/layout-v21/notification_action.xml",
+        "source": "/Users/binKarim/.android/build-cache/9c1ef7ec708c1fdd7b7498144b63c79a9e62ef19/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/binKarim/GitHub/AdditionCalculator/app/build/intermediates/res/merged/release/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/binKarim/.android/build-cache/9c1ef7ec708c1fdd7b7498144b63c79a9e62ef19/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/binKarim/GitHub/AdditionCalculator/app/build/intermediates/res/merged/release/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/binKarim/.android/build-cache/9c1ef7ec708c1fdd7b7498144b63c79a9e62ef19/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/binKarim/GitHub/AdditionCalculator/app/build/intermediates/res/merged/release/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/binKarim/.android/build-cache/9c1ef7ec708c1fdd7b7498144b63c79a9e62ef19/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
