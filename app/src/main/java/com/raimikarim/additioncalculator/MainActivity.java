@@ -11,10 +11,10 @@ import android.widget.TextView;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener,
-        View.OnLongClickListener {
+public class MainActivity
+        extends AppCompatActivity
+        implements View.OnClickListener, View.OnLongClickListener {
 
-    // testnn
     private int adder = 0;
     private TextView sumBox, historyBox;
     private StringBuilder sb = new StringBuilder();
@@ -30,27 +30,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        sumBox = (TextView) findViewById(R.id.sumbox);
+        sumBox = findViewById(R.id.sumbox);
         sumBox.setText(decimalFormat.format(0));
 
-        historyBox = (TextView) findViewById(R.id.history_box);
+        historyBox = findViewById(R.id.history_box);
         historyBox.setMovementMethod(new ScrollingMovementMethod());
 
-        buttonClear = (Button) findViewById(R.id.button_clear);
-        buttonBack = (Button) findViewById(R.id.button_back);
-        buttonA = (Button) findViewById(R.id.button_a);
-        buttonB = (Button) findViewById(R.id.button_b);
-        buttonC = (Button) findViewById(R.id.button_c);
-        buttonD = (Button) findViewById(R.id.button_d);
-        buttonE = (Button) findViewById(R.id.button_e);
-        buttonF = (Button) findViewById(R.id.button_f);
-        buttonG = (Button) findViewById(R.id.button_g);
-        buttonH = (Button) findViewById(R.id.button_h);
-        buttonI = (Button) findViewById(R.id.button_i);
-        buttonJ = (Button) findViewById(R.id.button_j);
-        buttonK = (Button) findViewById(R.id.button_k);
-        buttonInc = (Button) findViewById(R.id.button_inc);
-        buttonDec = (Button) findViewById(R.id.button_dec);
+        buttonClear = findViewById(R.id.button_clear);
+        buttonBack = findViewById(R.id.button_back);
+        buttonA = findViewById(R.id.button_a);
+        buttonB = findViewById(R.id.button_b);
+        buttonC = findViewById(R.id.button_c);
+        buttonD = findViewById(R.id.button_d);
+        buttonE = findViewById(R.id.button_e);
+        buttonF = findViewById(R.id.button_f);
+        buttonG = findViewById(R.id.button_g);
+        buttonH = findViewById(R.id.button_h);
+        buttonI = findViewById(R.id.button_i);
+        buttonJ = findViewById(R.id.button_j);
+        buttonK = findViewById(R.id.button_k);
+        buttonInc = findViewById(R.id.button_inc);
+        buttonDec = findViewById(R.id.button_dec);
 
         buttonClear.setOnClickListener(this);
         buttonBack.setOnClickListener(this);
@@ -127,16 +127,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         // Print
         switch (v.getId()) {
 
-            case R.id.button_a: str = String.valueOf(1+adder); break;
-            case R.id.button_b: str = String.valueOf(2+adder); break;
-            case R.id.button_c: str = String.valueOf(3+adder); break;
-            case R.id.button_d: str = String.valueOf(4+adder); break;
-            case R.id.button_e: str = String.valueOf(5+adder); break;
-            case R.id.button_f: str = String.valueOf(6+adder); break;
-            case R.id.button_g: str = String.valueOf(7+adder); break;
-            case R.id.button_h: str = String.valueOf(8+adder); break;
-            case R.id.button_i: str = String.valueOf(9+adder); break;
-            case R.id.button_j: str = String.valueOf(10+adder); break;
+            case R.id.button_a: str = String.valueOf(1 + adder); break;
+            case R.id.button_b: str = String.valueOf(2 + adder); break;
+            case R.id.button_c: str = String.valueOf(3 + adder); break;
+            case R.id.button_d: str = String.valueOf(4 + adder); break;
+            case R.id.button_e: str = String.valueOf(5 + adder); break;
+            case R.id.button_f: str = String.valueOf(6 + adder); break;
+            case R.id.button_g: str = String.valueOf(7 + adder); break;
+            case R.id.button_h: str = String.valueOf(8 + adder); break;
+            case R.id.button_i: str = String.valueOf(9 + adder); break;
+            case R.id.button_j: str = String.valueOf(10 + adder); break;
             case R.id.button_k: str = String.valueOf(0); break;
 
             case R.id.button_clear:
@@ -185,16 +185,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         switch (view.getId()) {
             case R.id.button_clear: sb = new StringBuilder(); str = ""; break;
-            case R.id.button_a: str = String.valueOf(1.5+adder); break;
-            case R.id.button_b: str = String.valueOf(2.5+adder); break;
-            case R.id.button_c: str = String.valueOf(3.5+adder); break;
-            case R.id.button_d: str = String.valueOf(4.5+adder); break;
-            case R.id.button_e: str = String.valueOf(5.5+adder); break;
-            case R.id.button_f: str = String.valueOf(6.5+adder); break;
-            case R.id.button_g: str = String.valueOf(7.5+adder); break;
-            case R.id.button_h: str = String.valueOf(8.5+adder); break;
-            case R.id.button_i: str = String.valueOf(9.5+adder); break;
-            case R.id.button_j: str = String.valueOf(10.5+adder); break;
+            case R.id.button_a: str = String.valueOf(1.5 + adder); break;
+            case R.id.button_b: str = String.valueOf(2.5 + adder); break;
+            case R.id.button_c: str = String.valueOf(3.5 + adder); break;
+            case R.id.button_d: str = String.valueOf(4.5 + adder); break;
+            case R.id.button_e: str = String.valueOf(5.5 + adder); break;
+            case R.id.button_f: str = String.valueOf(6.5 + adder); break;
+            case R.id.button_g: str = String.valueOf(7.5 + adder); break;
+            case R.id.button_h: str = String.valueOf(8.5 + adder); break;
+            case R.id.button_i: str = String.valueOf(9.5 + adder); break;
+            case R.id.button_j: str = String.valueOf(10.5 + adder); break;
             case R.id.button_k: str = String.valueOf(0.5); break;
         }
 
@@ -210,16 +210,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void buttonTextChange(int number) {
-        buttonA.setText(String.valueOf(1+number));
-        buttonB.setText(String.valueOf(2+number));
-        buttonC.setText(String.valueOf(3+number));
-        buttonD.setText(String.valueOf(4+number));
-        buttonE.setText(String.valueOf(5+number));
-        buttonF.setText(String.valueOf(6+number));
-        buttonG.setText(String.valueOf(7+number));
-        buttonH.setText(String.valueOf(8+number));
-        buttonI.setText(String.valueOf(9+number));
-        buttonJ.setText(String.valueOf(10+number));
+        buttonA.setText(String.valueOf(1 + number));
+        buttonB.setText(String.valueOf(2 + number));
+        buttonC.setText(String.valueOf(3 + number));
+        buttonD.setText(String.valueOf(4 + number));
+        buttonE.setText(String.valueOf(5 + number));
+        buttonF.setText(String.valueOf(6 + number));
+        buttonG.setText(String.valueOf(7 + number));
+        buttonH.setText(String.valueOf(8 + number));
+        buttonI.setText(String.valueOf(9 + number));
+        buttonJ.setText(String.valueOf(10 + number));
     }
 
     public String displaySum(ArrayList<Double> list) {

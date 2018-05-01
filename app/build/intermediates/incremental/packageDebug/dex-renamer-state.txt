@@ -1,7 +1,0 @@
-#Sat Oct 21 15:06:20 SGT 2017
-base.0=/Users/binKarim/GitHub/AdditionCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f4c2dacfbf8c985ab79f0899d861807732c1732b
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/binKarim/GitHub/AdditionCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_caddd230cd30bb084667ad3efd789aa4e9e9da1b/classes.dex
-base.1=/Users/binKarim/GitHub/AdditionCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_caddd230cd30bb084667ad3efd789aa4e9e9da1b
-file.0=/Users/binKarim/GitHub/AdditionCalculator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f4c2dacfbf8c985ab79f0899d861807732c1732b/classes.dex

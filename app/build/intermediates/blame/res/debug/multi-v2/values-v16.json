@@ -4,7 +4,26 @@
             "outputFile": "/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/291bb82d1210eb23d461076ea3106a12/res/values-v16/values-v16.xml",
+                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8d9616f2674404f583f99728547006a8/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "223"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "121",
+                        "endLines": "6",
+                        "endColumns": "12",
+                        "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/df7e33521b448b0ca70dd3397e90d075/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

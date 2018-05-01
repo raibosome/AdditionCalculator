@@ -5,23 +5,23 @@
     build-mode="FULL"
     density="xxxhdpi"
     format="10"
-    plugin-version="3.1.0"
-    timestamp="1523102034304"
+    plugin-version="3.1.2"
+    timestamp="1525164113142"
     token="3172123118026058740"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="2045" />
+        duration="1181" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="148" />
+        duration="197" />
     <task
         name="verifier"
-        duration="34" />
+        duration="125" />
 
     <artifact
         location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -30,25 +30,22 @@
         location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
         type="SPLIT" />
     <artifact
         location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+        location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
         location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
         location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -57,12 +54,15 @@
         location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
         type="SPLIT" />
     <artifact
+        location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1523102034304"
+        timestamp="1525164113142"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
@@ -71,31 +71,31 @@
             location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
             location="/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
