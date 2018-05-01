@@ -1,171 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
-    android:background="#2c2a26"
-    tools:context="com.raimikarim.additioncalculator.MainActivity"
-    android:orientation="vertical">
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/sumbox"
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:text="Hello World!"
-        android:textSize="40sp"
-        android:textStyle="bold"
-        android:textColor="@android:color/white"
-        android:gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <LinearLayout
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:orientation="vertical">
+        android:paddingTop="@dimen/appbar_padding_top"
+        android:theme="@style/AppTheme.AppBarOverlay">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <Button
-                android:id="@+id/button_a"
-                style="@style/ButtonStyle"
-                android:text="1"/>
-            <Button
-                android:id="@+id/button_b"
-                style="@style/ButtonStyle"
-                android:text="2"/>
-            <Button
-                android:id="@+id/button_c"
-                style="@style/ButtonStyle"
-                android:text="3"/>
-            <Button
-                android:id="@+id/button_clear"
-                style="@style/ButtonStyle"
-                android:textStyle="bold"
-                android:background="#e5c100"
-                android:text="C"/>
-        </LinearLayout>
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_weight="1"
+            android:background="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|enterAlways"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/app_name">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <Button
-                android:id="@+id/button_d"
-                style="@style/ButtonStyle"
-                android:text="4"/>
-            <Button
-                android:id="@+id/button_e"
-                style="@style/ButtonStyle"
-                android:text="5"/>
-            <Button
-                android:id="@+id/button_f"
-                style="@style/ButtonStyle"
-                android:text="6"/>
+        </android.support.v7.widget.Toolbar>
 
-            <Button
-                android:id="@+id/button_back"
-                style="@style/ButtonStyle"
-                android:text=""
-                android:background="#e5c100"
-                android:drawableStart="@drawable/ic_undo"
-                android:paddingStart="20dp"
-                android:paddingLeft="20dp"
-                android:paddingRight="0dp"
-                android:paddingEnd="0dp"
-                android:layout_gravity="center"
-                android:drawableLeft="@drawable/ic_undo"/>
+    </android.support.design.widget.AppBarLayout>
 
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <Button
-                android:id="@+id/button_g"
-                style="@style/ButtonStyle"
-                android:text="7"/>
-            <Button
-                android:id="@+id/button_h"
-                style="@style/ButtonStyle"
-                android:text="8"/>
-            <Button
-                android:id="@+id/button_i"
-                style="@style/ButtonStyle"
-                android:text="9"/>
-            <Button
-                android:id="@+id/button_inc"
-                style="@style/ButtonStyle"
-                android:layout_marginLeft="4dp"
-                android:background="#ee6363"
-                android:text="+10"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior" />
 
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-            <Button
-                android:id="@+id/button_j"
-                style="@style/ButtonStyle"
-                android:text="10"/>
-            <Button
-                style="@style/ButtonStyle"
-                android:text=""
-                android:visibility="invisible"/>
-
-            <Button
-                android:id="@+id/button_k"
-                style="@style/ButtonStyle"
-                android:background="#7fd87f"
-                android:text="0" />
-            <Button
-                android:id="@+id/button_dec"
-                style="@style/ButtonStyle"
-                android:layout_marginLeft="4dp"
-                android:background="#ee6363"
-                android:text="-10" />
-
-        </LinearLayout>
-
-    </LinearLayout>
-
-
-    <TextView
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:paddingLeft="16dp"
-        android:textColor="#807f7c"
-        android:textStyle="bold"
-        android:textSize="14sp"
-        android:text="Browse History"/>
+        android:layout_gravity="end|bottom"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
 
-    <TextView
-        android:id="@+id/history_box"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="#807f7c"
-        android:text=""
-        android:paddingLeft="16dp"
-        android:textSize="12sp"
-        android:maxLines="7"
-        android:fontFamily="monospace"
-        android:fadeScrollbars="false"
-        android:focusable="true"
-        android:gravity="bottom"
-        android:isScrollContainer="true"
-        android:scrollbars="vertical"/>
-
-
-</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

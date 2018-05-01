@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#2c2a26"
+    tools:context="com.raimikarim.additioncalculator.AdditionActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sumbox"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="Hello World!"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_a"
+                style="@style/ButtonStyle"
+                android:text="@string/button_text_1"/>
+            <Button
+                android:id="@+id/button_b"
+                style="@style/ButtonStyle"
+                android:text="@string/button_text_2"/>
+            <Button
+                android:id="@+id/button_c"
+                style="@style/ButtonStyle"
+                android:text="@string/button_text_3"/>
+            <Button
+                android:id="@+id/button_clear"
+                style="@style/ButtonStyle"
+                android:textStyle="bold"
+                android:background="#e5c100"
+                android:text="@string/button_text_clear"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_d"
+                style="@style/ButtonStyle"
+                android:text="@string/button_text_4"/>
+            <Button
+                android:id="@+id/button_e"
+                style="@style/ButtonStyle"
+                android:text="@string/button_text_5"/>
+            <Button
+                android:id="@+id/button_f"
+                style="@style/ButtonStyle"
+                android:text="@string/button_text_6"/>
+
+            <Button
+                android:id="@+id/button_back"
+                style="@style/ButtonStyle"
+                android:text=""
+                android:background="#e5c100"
+                android:drawableStart="@drawable/ic_undo"
+                android:paddingStart="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="0dp"
+                android:paddingEnd="0dp"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/ic_undo"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_g"
+                style="@style/ButtonStyle"
+                android:text="@string/button_text_7"/>
+            <Button
+                android:id="@+id/button_h"
+                style="@style/ButtonStyle"
+                android:text="@string/button_text_8"/>
+            <Button
+                android:id="@+id/button_i"
+                style="@style/ButtonStyle"
+                android:text="@string/button_text_9"/>
+            <Button
+                android:id="@+id/button_inc"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="4dp"
+                android:background="#ee6363"
+                android:text="@string/button_text_add_10"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/button_j"
+                style="@style/ButtonStyle"
+                android:text="@string/button_text_10"/>
+            <Button
+                style="@style/ButtonStyle"
+                android:text=""
+                android:visibility="invisible"/>
+
+            <Button
+                android:id="@+id/button_k"
+                style="@style/ButtonStyle"
+                android:background="#7fd87f"
+                android:text="@string/button_text_0" />
+            <Button
+                android:id="@+id/button_dec"
+                style="@style/ButtonStyle"
+                android:layout_marginLeft="4dp"
+                android:background="#ee6363"
+                android:text="@string/button_text_minus_10" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:paddingLeft="16dp"
+        android:textColor="#807f7c"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:text="@string/label_history"/>
+
+    <TextView
+        android:id="@+id/history_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#807f7c"
+        android:text=""
+        android:paddingLeft="16dp"
+        android:textSize="12sp"
+        android:maxLines="7"
+        android:fontFamily="monospace"
+        android:fadeScrollbars="false"
+        android:focusable="true"
+        android:gravity="bottom"
+        android:isScrollContainer="true"
+        android:scrollbars="vertical"/>
+
+
+</LinearLayout>
