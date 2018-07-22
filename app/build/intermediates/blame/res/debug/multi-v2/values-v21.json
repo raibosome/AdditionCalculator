@@ -1,29 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/raimibinkarim/Documents/AndroidStudioProjects/SwiftGrader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
-                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/1e824eee7f2d118515b95af3619a1ccb/res/values-v21/values-v21.xml",
-                    "from": {
-                        "startLines": "2,5",
-                        "startColumns": "4,4",
-                        "startOffsets": "55,266",
-                        "endLines": "4,5",
-                        "endColumns": "12,96",
-                        "endOffsets": "261,358"
-                    },
-                    "to": {
-                        "startLines": "164,228",
-                        "startColumns": "4,4",
-                        "startOffsets": "12577,17127",
-                        "endLines": "166,228",
-                        "endColumns": "12,96",
-                        "endOffsets": "12783,17219"
-                    }
-                },
-                {
-                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8d9616f2674404f583f99728547006a8/res/values-v21/values-v21.xml",
+                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c1d16e8e6b0849c012f71c3291e9a747/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247,259,260,261,264,267,268,271,272",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -42,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/93854b40d62c5ec5f966e507ad906e69/res/values-v21/values-v21.xml",
+                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/92ec939c883624bf74c6431c989334f6/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,5,8,11",
                         "startColumns": "4,4,4,4",
@@ -61,7 +42,26 @@
                     }
                 },
                 {
-                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/df7e33521b448b0ca70dd3397e90d075/res/values-v21/values-v21.xml",
+                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ae20be8f7cfbfe32a7c346ef50807812/res/values-v21/values-v21.xml",
+                    "from": {
+                        "startLines": "2,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,266",
+                        "endLines": "4,5",
+                        "endColumns": "12,96",
+                        "endOffsets": "261,358"
+                    },
+                    "to": {
+                        "startLines": "164,228",
+                        "startColumns": "4,4",
+                        "startOffsets": "12577,17127",
+                        "endLines": "166,228",
+                        "endColumns": "12,96",
+                        "endOffsets": "12783,17219"
+                    }
+                },
+                {
+                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/d24b0497cfd80603ee3613ef288c2423/res/values-v21/values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,13",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",

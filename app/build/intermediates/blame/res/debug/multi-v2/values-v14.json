@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/raimibinkarim/Documents/AndroidStudioProjects/AdditionCalculator/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+            "outputFile": "/Users/raimibinkarim/Documents/AndroidStudioProjects/SwiftGrader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
             "map": [
                 {
-                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/8d9616f2674404f583f99728547006a8/res/values-v14/values-v14.xml",
+                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c1d16e8e6b0849c012f71c3291e9a747/res/values-v14/values-v14.xml",
                     "from": {
                         "startLines": "2,7,8,9,15",
                         "startColumns": "4,4,4,4,4",

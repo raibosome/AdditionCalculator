@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:ns1="http://schemas.android.com/tools">
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
     <attr format="boolean" name="barrierAllowsGoneWidgets"/>
     <attr format="enum" name="barrierDirection">
         <enum name="left" value="0"/>
@@ -139,6 +139,7 @@
     <color name="abc_search_url_text_selected">@android:color/black</color>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
+    <color name="background">#000000</color>
     <color name="background_floating_material_dark">@color/material_grey_800</color>
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
@@ -151,9 +152,17 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <color name="colorAccent">#FF4081</color>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#0096ff</color>
+    <color name="colorPrimary">#0096ff</color>
+    <color name="colorPrimaryDark">#0087e5</color>
+    <color name="common_google_signin_btn_text_dark_default">@android:color/white</color>
+    <color name="common_google_signin_btn_text_dark_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_dark_focused">@android:color/black</color>
+    <color name="common_google_signin_btn_text_dark_pressed">@android:color/white</color>
+    <color name="common_google_signin_btn_text_light_default">#90000000</color>
+    <color name="common_google_signin_btn_text_light_disabled">#1F000000</color>
+    <color name="common_google_signin_btn_text_light_focused">#90000000</color>
+    <color name="common_google_signin_btn_text_light_pressed">#DE000000</color>
     <color name="design_bottom_navigation_shadow_color">#14000000</color>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -170,6 +179,8 @@
     <color name="error_color_material">#F4511E</color>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
+    <color name="green">#009051</color>
+    <color name="grey">#807f7c</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="material_blue_grey_800">#ff37474f</color>
@@ -187,6 +198,7 @@
     <color name="notification_action_color_filter">#ffffffff</color>
     <color name="notification_icon_bg_color">#ff9e9e9e</color>
     <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="orange">#ff9300</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
     <color name="primary_material_dark">@color/material_grey_900</color>
@@ -453,6 +465,14 @@
         </attr><attr format="dimension" name="dividerPadding"/></declare-styleable>
     <declare-styleable name="LinearLayoutCompat_Layout"><attr name="android:layout_width"/><attr name="android:layout_height"/><attr name="android:layout_weight"/><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ListPopupWindow"><attr name="android:dropDownVerticalOffset"/><attr name="android:dropDownHorizontalOffset"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr name="imageAspectRatioAdjust">
+<enum name="none" value="0"/>
+
+<enum name="adjust_width" value="1"/>
+
+<enum name="adjust_height" value="2"/>
+
+</attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
     <declare-styleable name="MenuGroup"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:checkableBehavior"/><attr name="android:visible"/><attr name="android:enabled"/></declare-styleable>
     <declare-styleable name="MenuItem"><attr name="android:id"/><attr name="android:menuCategory"/><attr name="android:orderInCategory"/><attr name="android:title"/><attr name="android:titleCondensed"/><attr name="android:icon"/><attr name="android:alphabeticShortcut"/><attr name="alphabeticModifiers">
             <flag name="META" value="0x10000"/>
@@ -502,6 +522,21 @@
     <declare-styleable name="ScrimInsetsFrameLayout"><attr format="color|reference" name="insetForeground"/></declare-styleable>
     <declare-styleable name="ScrollingViewBehavior_Layout"><attr format="dimension" name="behavior_overlapTop"/></declare-styleable>
     <declare-styleable name="SearchView"><attr format="reference" name="layout"/><attr format="boolean" name="iconifiedByDefault"/><attr name="android:maxWidth"/><attr format="string" name="queryHint"/><attr format="string" name="defaultQueryHint"/><attr name="android:imeOptions"/><attr name="android:inputType"/><attr format="reference" name="closeIcon"/><attr format="reference" name="goIcon"/><attr format="reference" name="searchIcon"/><attr format="reference" name="searchHintIcon"/><attr format="reference" name="voiceIcon"/><attr format="reference" name="commitIcon"/><attr format="reference" name="suggestionRowLayout"/><attr format="reference" name="queryBackground"/><attr format="reference" name="submitBackground"/><attr name="android:focusable"/></declare-styleable>
+    <declare-styleable name="SignInButton"><attr format="reference" name="buttonSize">
+<enum name="standard" value="0"/>
+
+<enum name="wide" value="1"/>
+
+<enum name="icon_only" value="2"/>
+
+</attr><attr format="reference" name="colorScheme">
+<enum name="dark" value="0"/>
+
+<enum name="light" value="1"/>
+
+<enum name="auto" value="2"/>
+
+</attr><attr format="reference|string" name="scopeUris"/></declare-styleable>
     <declare-styleable name="SnackbarLayout"><attr name="android:maxWidth"/><attr name="elevation"/><attr format="dimension" name="maxActionInlineWidth"/></declare-styleable>
     <declare-styleable name="Spinner"><attr name="android:prompt"/><attr name="popupTheme"/><attr name="android:popupBackground"/><attr name="android:dropDownWidth"/><attr name="android:entries"/></declare-styleable>
     <declare-styleable name="SwitchCompat"><attr name="android:thumb"/><attr format="color" name="thumbTint"/><attr name="thumbTintMode">
@@ -649,6 +684,7 @@
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="button_height">90dp</dimen>
     <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
     <dimen name="compat_button_inset_vertical_material">6dp</dimen>
     <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
@@ -768,6 +804,7 @@
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="config_tooltipAnimTime">150</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
+    <integer name="google_play_services_version">12451000</integer>
     <integer name="hide_password_duration">320</integer>
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
@@ -803,7 +840,7 @@
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
     <string name="action_settings">Settings</string>
-    <string name="app_name">Teachers\' Calculator</string>
+    <string name="app_name">Swift Grader</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="button_text_0">0</string>
@@ -817,16 +854,44 @@
     <string name="button_text_7">7</string>
     <string name="button_text_8">8</string>
     <string name="button_text_9">9</string>
-    <string name="button_text_add_10">+10</string>
     <string name="button_text_clear">C</string>
-    <string name="button_text_minus_10">-10</string>
+    <string name="button_text_csv">Rate Us</string>
+    <string name="button_text_save">Save</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="label_history">Browse History</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Install</string>
+    <string name="common_google_play_services_install_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are missing from your device.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services availability</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue"><ns1:g id="app_name">%1$s</ns1:g> is having trouble with Google Play services. Please try again.</string>
+    <string name="common_google_play_services_unsupported_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are not supported by your device.</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_google_play_services_updating_text"><ns1:g id="app_name">%1$s</ns1:g> won\'t run without Google Play services, which are currently updating.</string>
+    <string name="common_google_play_services_wear_update_text">New version of Google Play services needed. It will update itself shortly.</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <string name="default_web_client_id" translatable="false">447397623777-hk4j3f20i1griekpaj98fmu9iklj4l89.apps.googleusercontent.com</string>
+    <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
+    <string name="firebase_database_url" translatable="false">https://teachers-calculator.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">447397623777</string>
+    <string name="google_api_key" translatable="false">AIzaSyBVq6oIpebX1xEBdXEpGsCGpAkTlw6kpNg</string>
+    <string name="google_app_id" translatable="false">1:447397623777:android:56d9aea71ab41443</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVq6oIpebX1xEBdXEpGsCGpAkTlw6kpNg</string>
+    <string name="google_storage_bucket" translatable="false">teachers-calculator.appspot.com</string>
+    <string name="label_history">History</string>
     <string name="password_toggle_content_description">Toggle password visibility</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="project_id" translatable="false">teachers-calculator</string>
+    <string name="save_to">Save to</string>
     <string name="search_menu_title">Search</string>
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -1901,15 +1966,15 @@
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
     <style name="ButtonStyle">
-        <!-- Customize your theme here. -->
-        <item name="android:layout_width">72dp</item>
-        <item name="android:layout_height">72dp</item>
-        <item name="android:background">#d3d3d3</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">0.25</item>
+        <item name="android:background">@drawable/button_rounded_blue</item>
         <item name="android:layout_margin">2dp</item>
         <item name="android:textSize">28sp</item>
-        <item name="android:textColor">#000000</item>
-        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:textColor">@android:color/white</item>
         <item name="android:clickable">true</item>
+        <item name="android:layout_gravity">center</item>
     </style>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -2343,7 +2408,7 @@
     </style>
     <style name="Widget.Design.BottomSheet.Modal" parent="android:Widget">
         <item name="android:background">?android:attr/colorBackground</item>
-        <item name="android:elevation" ns1:ignore="NewApi">@dimen/design_bottom_sheet_modal_elevation</item>
+        <item name="android:elevation" ns2:ignore="NewApi">@dimen/design_bottom_sheet_modal_elevation</item>
         <item name="behavior_peekHeight">auto</item>
         <item name="behavior_hideable">true</item>
         <item name="behavior_skipCollapsed">false</item>
