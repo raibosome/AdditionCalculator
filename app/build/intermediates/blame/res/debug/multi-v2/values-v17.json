@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/raimibinkarim/Documents/AndroidStudioProjects/SwiftGrader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
+            "outputFile": "/Users/raimibinkarim/Projects/Android/SwiftGrader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c1d16e8e6b0849c012f71c3291e9a747/res/values-v17/values-v17.xml",
+                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0705dff719d6026612d51ab9dcc06a01/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",

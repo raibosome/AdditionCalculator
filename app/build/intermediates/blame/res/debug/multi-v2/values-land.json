@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/raimibinkarim/Documents/AndroidStudioProjects/SwiftGrader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/raimibinkarim/Projects/Android/SwiftGrader/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/ae20be8f7cfbfe32a7c346ef50807812/res/values-land/values-land.xml",
+                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d3b0f9ff180d4bef48c85a6b86984911/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/c1d16e8e6b0849c012f71c3291e9a747/res/values-land/values-land.xml",
+                    "source": "/Users/raimibinkarim/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/0705dff719d6026612d51ab9dcc06a01/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

@@ -64,7 +64,7 @@ public class AdditionActivity extends AppCompatActivity {
 
         historyBox = findViewById(R.id.history_box);
         historyBox.setMovementMethod(new ScrollingMovementMethod());
-
+        
         button1 = findViewById(R.id.button_1);
         button2 = findViewById(R.id.button_2);
         button3 = findViewById(R.id.button_3);
@@ -307,7 +307,7 @@ public class AdditionActivity extends AppCompatActivity {
     public void help() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
-        builder.setTitle("Gestures");
+        builder.setTitle("Help");
 
         builder.setMessage("1) Tap to add\n" +
                 "2) Swipe left/right to minus/plus 10\n" +
@@ -316,6 +316,14 @@ public class AdditionActivity extends AppCompatActivity {
         builder.setPositiveButton("Okay", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+            }
+        });
+        builder.setNeutralButton("Privacy Policy", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialogInterface, int i) {
+                Intent intent = new Intent(Intent.ACTION_VIEW,
+                        Uri.parse("https://raiboso.me/swift-grader/privacy-policy.html"));
+                startActivity(intent);
             }
         });
 

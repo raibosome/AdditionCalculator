@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "447397623777",
+    "firebase_url": "https://teachers-calculator.firebaseio.com",
+    "project_id": "teachers-calculator",
+    "storage_bucket": "teachers-calculator.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447397623777:android:56d9aea71ab41443",
+        "android_client_info": {
+          "package_name": "com.raimikarim.additioncalculator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "447397623777-hk4j3f20i1griekpaj98fmu9iklj4l89.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "447397623777-hk4j3f20i1griekpaj98fmu9iklj4l89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVq6oIpebX1xEBdXEpGsCGpAkTlw6kpNg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
